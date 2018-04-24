@@ -60,7 +60,7 @@ class IdeaView extends Component {
       <div>
         <div>
           <h1>{this.state.user.name}'s Idea Board</h1>
-          <button>New Idea</button>
+          <button onClick={this.createIdea}>New Idea</button>
         </div>
         <div>
           {ideas}
